@@ -1,26 +1,30 @@
-/* app.component.css */
 .app-container {
     display: flex;
     justify-content: space-around;
   }
   
-  /* child1.component.css */
   .child1-container {
     background-color: #e0e0e0;
     padding: 10px;
     margin-top: 20px;
   }
   
-  /* child2.component.css */
   .child2-container {
     background-color: #f0f0f0;
     padding: 10px;
     margin-top: 20px;
   }
   
-  /* styles.css */
+  .button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
 .increment-button {
-    background-color: #4caf50; /* Green */
+    background-color: #4caf50; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -33,7 +37,13 @@
   }
   
   .decrement-button {
-    background-color: #f44336; /* Red */
-    /* Add other styles as needed */
+    background-color: #f44336; 
+  }
+
+  .button:hover {
+    background-color: grey;
   }
   
+  .button:active {
+    transform: scale(0.95);
+  }
