@@ -15,6 +15,7 @@ export class Child1Component implements OnInit {
   ngOnInit() {
     this.counterService.getCount().subscribe(count => {
       this.count = count;
+      console.log('Child 1 Count')
     });
   }
 }

@@ -12,11 +12,11 @@ export class AppComponent {
 
   increment() {
     this.counterService.increment();
-    console.log('Child 1 Count');
+    console.log('Child increment');
   }
 
   decrement() {
     this.counterService.decrement();
-    console.log('Child 2 Double Count');
+    console.log('Child decrement');
   }
 }

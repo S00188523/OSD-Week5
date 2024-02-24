@@ -15,6 +15,7 @@ export class Child2Component implements OnInit {
   ngOnInit() {
     this.counterService.getDoubleCount().subscribe(doubleCount => {
       this.doubleCount = doubleCount;
+      console.log('Child 2 doubleCount')
     });
   }
 }
